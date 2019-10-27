@@ -8,17 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-NSString *pantalla;
-float Numero;
+NSString *operador;
+float numero;
 float segundoNumero;
 
 @interface ViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UILabel *pantalla;
+
 - (IBAction)operadores:(id)sender;
 
 - (IBAction)numero:(id)sender;
 
 - (IBAction)igual:(id)sender;
+
+- (IBAction)memoria:(id)sender;
 
 @end
 
