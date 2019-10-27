@@ -20,4 +20,12 @@
 }
 
 
+- (IBAction)operadores:(id)sender {
+}
+
+- (IBAction)numero:(id)sender {
+}
+
+- (IBAction)igual:(id)sender {
+}
 @end
